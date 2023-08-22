@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+
+    /* Apply responsive styles for devices with a maximum width of 768px */
+    .app {
+        flex-direction: column;
+    }
+    .mts-12{
+        margin-left : -35px
+    }
+    .mt-sidemenu{
+        padding-left: 0px;
+    }
+    .mt-userposts{
+        border-left: solid rgba(207, 217, 222, 1) 1px;
+       margin-left:50px;
+       width: 70%!important;
+}
+    }
+
+@media (max-width: 400px) {
+    
+.mt-userposts {
+    width: 50%;
+    margin-left:20px
+}
+}
+
+@media (max-width: 1200px) {
+    .mt-sidemenu {
+            width: 60px;
+            border-right: solid rgb(207, 217, 222) 1px;
+            padding: 0px;
+            height: 100vh;
+            padding-left: 10px;
+            float: left;
+            overflow: hidden;
+        }
+.mt-userposts {
+    width: 60%;
+}
+}
