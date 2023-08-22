@@ -21,7 +21,7 @@ npm i
 3. Create a .env file and add the mongodb url on server side.
 
 ```sh
-DB_URL = <MONGO_URL>
+DBurl = <MONGO_URL>
 ```
 
 4. Run Backend Server
