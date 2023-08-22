@@ -6,7 +6,7 @@
 
 ### Steps to run the project
 
-1. Open the app using below link
+1. Open the app using below link(use chrome for best user experience)
 
 ```sh
 https://mini-twitter-24sn.onrender.com/
