@@ -5,6 +5,7 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT == 8080 ? 3000 : process.env.PORT;
 const cors = require("cors");
+const path = require("path");
 
 const router = require("./routers/profile");
 require("../src/db/conn");
