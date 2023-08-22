@@ -69,7 +69,7 @@ function Posts(props) {
                 onClick={() => handleVote(post._id, false)}
               />
               <span className="mx-1 fs-5">{post.downvotes}</span>
-              {username.toLowerCase() === post.username.toLowerCase() && (
+              {username?.toLowerCase() === post.username?.toLowerCase() && (
                 <>
                   <img
                     src={Edit}

@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", true);
 
-url = process.env.DBurl || "mongodb://localhost:27017/miniTwitterDb";
+url =
+  "mongodb+srv://Ridam:nfPRX59KgubU1tRm@cluster0.c6lne.mongodb.net/MiniTwitterDb?retryWrites=true&w=majority" ||
+  "mongodb://localhost:27017/miniTwitterDb";
 
 mongoose
   .connect(url, {
