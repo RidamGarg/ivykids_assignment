@@ -34,6 +34,6 @@ npm run dev
 5. Run the front end server
 
 ```sh
-cd server
+cd client
 npm start
 ```
