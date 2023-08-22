@@ -9,7 +9,7 @@
 1. Open the app using below link
 
 ```sh
-https://mini-twitter-24sn.onrender.com/home
+https://mini-twitter-24sn.onrender.com/
 ```
 
 2. Install NPM packages on both client & server side
