@@ -69,21 +69,22 @@ function Posts(props) {
                 onClick={() => handleVote(post._id, false)}
               />
               <span className="mx-1 fs-5">{post.downvotes}</span>
-              {username?.toLowerCase() === post.username?.toLowerCase() && (
-                <>
-                  <img
-                    src={Edit}
-                    className="img-thumbnail"
-                    onClick={() => handleShow(post._id)}
-                    key={post._id}
-                  />
-                  <img
-                    src={Delete}
-                    className="img-thumbnail"
-                    onClick={() => handleDeletePost(post._id)}
-                  />
-                </>
-              )}
+              {username &&
+                username?.toLowerCase() === post.username?.toLowerCase() && (
+                  <>
+                    <img
+                      src={Edit}
+                      className="img-thumbnail"
+                      onClick={() => handleShow(post._id)}
+                      key={post._id}
+                    />
+                    <img
+                      src={Delete}
+                      className="img-thumbnail"
+                      onClick={() => handleDeletePost(post._id)}
+                    />
+                  </>
+                )}
             </div>
 
             <EditPost
